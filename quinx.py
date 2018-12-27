@@ -18,4 +18,6 @@ async def on_message(message):
 	    msg = 'Hello' (0.author.mention) Hows your day?'.format(message)
 		await client.send_message(message.channel ,msg)
 		
+$ heroku addons:create rails-autoscale:trial
+		
 client.run(os.getenv('rafsan'))
